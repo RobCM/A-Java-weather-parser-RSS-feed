@@ -77,7 +77,7 @@ public class climate_parser
 		            public void actionPerformed(ActionEvent e)
 		            {	
 		            	// Overwrite variables
-		            	url = "http://w1.weather.gov/xml/current_obs/TJSJ.xml"; // Location of RSS to parse from;
+		            	url = "https://w1.weather.gov/xml/current_obs/TJSJ.xml"; // Location of RSS to parse from;
 		            	imageResLink = "/res/primage.png";
 		            	// Calling function!
 		            	Dataparser(panel);
@@ -95,7 +95,7 @@ public class climate_parser
 				     public void actionPerformed(ActionEvent e)
 				     {
 				    	// Overwrite variables
-				    	 url = "http://w1.weather.gov/xml/current_obs/KAUS.xml"; // Location of RSS to parse from;
+				    	 url = "https://w1.weather.gov/xml/current_obs/KAUS.xml"; // Location of RSS to parse from;
 				    	 imageResLink = "/res/ausimage.png";
 			            // Calling function!
 			            Dataparser(panel);			    	 
